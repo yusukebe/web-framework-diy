@@ -1,0 +1,15 @@
+{
+  "name": "web-framework-diy",
+  "packageManager": "yarn@4.3.0",
+  "workspaces": {
+    "packages": [
+      "projects/*"
+    ]
+  },
+  "devDependencies": {
+    "@hono/eslint-config": "^0.0.6",
+    "eslint": "^9.4.0",
+    "typescript": "^5.4.5",
+    "wrangler": "^3.60.2"
+  }
+}
