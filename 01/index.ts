@@ -1,5 +1,5 @@
 export default {
-  fetch: (req: Request) => {
+  fetch: () => {
     return new Response('Hi')
   }
 }

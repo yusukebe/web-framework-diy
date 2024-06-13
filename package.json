@@ -1,15 +1,22 @@
 {
   "name": "web-framework-diy",
   "packageManager": "yarn@4.3.0",
+  "scripts": {
+    "test": "vitest",
+    "dev": "wrangler dev"
+  },
   "workspaces": {
     "packages": [
       "projects/*"
     ]
   },
   "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.4.4",
+    "@cloudflare/workers-types": "^4.20240605.0",
     "@hono/eslint-config": "^0.0.6",
     "eslint": "^9.4.0",
     "typescript": "^5.4.5",
+    "vitest": "1.5.0",
     "wrangler": "^3.60.2"
   }
 }

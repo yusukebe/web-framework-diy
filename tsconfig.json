@@ -8,6 +8,10 @@
     "lib": [
       "DOM",
       "ESNext"
+    ],
+    "types": [
+      "@cloudflare/workers-types",
+      "vitest/globals"
     ]
   },
 }
